@@ -17,12 +17,12 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/rashadcollins/Documents/GitHub/new-insta-app/src/contracts/Meadow.sol\":\"Meadow\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/rashadcollins/Documents/GitHub/new-insta-app/src/contracts/Meadow.sol\":{\"keccak256\":\"0x8f991c77efb5ee7d7d49e9d980868bd763bd423968760ac47cdaaa8ca212c56d\",\"urls\":[\"bzz-raw://6bce1c980d5b7052bc6ba311cac963a497e14490b5f00a2313d722cea26d0220\",\"dweb:/ipfs/QmUZvnvKJrEHSKg68s7TCyMEFHpUMBQ84HUGUtaiaLq1ME\"]}},\"version\":1}",
-  "bytecode": "0x60806040526040518060400160405280600881526020017f617070206e616d650000000000000000000000000000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b610186806101166000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a72315820a2ffb047e36b62576dd6ab4d54a269285ed79076bcb4a599e85a215de761bda864736f6c63430005100032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a72315820a2ffb047e36b62576dd6ab4d54a269285ed79076bcb4a599e85a215de761bda864736f6c63430005100032",
-  "sourceMap": "25:60:0:-;;;51:31;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;25:60;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:60:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
-  "deployedSourceMap": "25:60:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:60:0;;;;;;;;;;;;;;;;;;;51:31;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;51:31:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.5.0;\n\ncontract Meadow {\n  string public name = \"app name\";\n}\n",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/rashadcollins/Documents/GitHub/new-insta-app/src/contracts/Meadow.sol\":\"Meadow\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/rashadcollins/Documents/GitHub/new-insta-app/src/contracts/Meadow.sol\":{\"keccak256\":\"0xbae61f3447a6916d6d36640bf79af0c2c1559e4ad06faef4f917be0cef5459f1\",\"urls\":[\"bzz-raw://c055466dec439a6b431ac9e50f0661abf1863e78b8347807060ddd60b6997145\",\"dweb:/ipfs/QmWWZzQ3gQAqEvV9q7X2TnUnXGH3LqH8wcbrvstj5oUKUL\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040518060400160405280600681526020017f4d6561646f7700000000000000000000000000000000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b610186806101166000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a723158207039f62475dbc22fe39ce4675e319eb374b3a36d215584a53b4d12df039e103164736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a723158207039f62475dbc22fe39ce4675e319eb374b3a36d215584a53b4d12df039e103164736f6c63430005100032",
+  "sourceMap": "25:56:0:-;;;45:29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;25:56;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:56:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "25:56:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:56:0;;;;;;;;;;;;;;;;;;;45:29;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;45:29:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\ncontract Meadow {\n  string public name = \"Meadow\";\n\n  \n}\n",
   "sourcePath": "/Users/rashadcollins/Documents/GitHub/new-insta-app/src/contracts/Meadow.sol",
   "ast": {
     "absolutePath": "/Users/rashadcollins/Documents/GitHub/new-insta-app/src/contracts/Meadow.sol",
@@ -64,7 +64,7 @@
             "name": "name",
             "nodeType": "VariableDeclaration",
             "scope": 5,
-            "src": "51:31:0",
+            "src": "45:29:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -75,7 +75,7 @@
               "id": 2,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "51:6:0",
+              "src": "45:6:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
@@ -83,7 +83,7 @@
             },
             "value": {
               "argumentTypes": null,
-              "hexValue": "617070206e616d65",
+              "hexValue": "4d6561646f77",
               "id": 3,
               "isConstant": false,
               "isLValue": false,
@@ -91,22 +91,22 @@
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "72:10:0",
+              "src": "66:8:0",
               "subdenomination": null,
               "typeDescriptions": {
-                "typeIdentifier": "t_stringliteral_b2f909a8ed9d1e512a23fdc43b7e4adeafdae10775783d3e1668869b54ee62a6",
-                "typeString": "literal_string \"app name\""
+                "typeIdentifier": "t_stringliteral_53d3c9b970ad950885a71828e25dda88704942026be6671f035c6d36c5d1ede9",
+                "typeString": "literal_string \"Meadow\""
               },
-              "value": "app name"
+              "value": "Meadow"
             },
             "visibility": "public"
           }
         ],
         "scope": 6,
-        "src": "25:60:0"
+        "src": "25:56:0"
       }
     ],
-    "src": "0:86:0"
+    "src": "0:82:0"
   },
   "legacyAST": {
     "absolutePath": "/Users/rashadcollins/Documents/GitHub/new-insta-app/src/contracts/Meadow.sol",
@@ -148,7 +148,7 @@
             "name": "name",
             "nodeType": "VariableDeclaration",
             "scope": 5,
-            "src": "51:31:0",
+            "src": "45:29:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -159,7 +159,7 @@
               "id": 2,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "51:6:0",
+              "src": "45:6:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
@@ -167,7 +167,7 @@
             },
             "value": {
               "argumentTypes": null,
-              "hexValue": "617070206e616d65",
+              "hexValue": "4d6561646f77",
               "id": 3,
               "isConstant": false,
               "isLValue": false,
@@ -175,22 +175,22 @@
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "72:10:0",
+              "src": "66:8:0",
               "subdenomination": null,
               "typeDescriptions": {
-                "typeIdentifier": "t_stringliteral_b2f909a8ed9d1e512a23fdc43b7e4adeafdae10775783d3e1668869b54ee62a6",
-                "typeString": "literal_string \"app name\""
+                "typeIdentifier": "t_stringliteral_53d3c9b970ad950885a71828e25dda88704942026be6671f035c6d36c5d1ede9",
+                "typeString": "literal_string \"Meadow\""
               },
-              "value": "app name"
+              "value": "Meadow"
             },
             "visibility": "public"
           }
         ],
         "scope": 6,
-        "src": "25:60:0"
+        "src": "25:56:0"
       }
     ],
-    "src": "0:86:0"
+    "src": "0:82:0"
   },
   "compiler": {
     "name": "solc",
@@ -281,8 +281,8 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x01DF098bb909713CDf7523cE61F39C5c3623fb54",
-      "transactionHash": "0x071e617bd75a145829b7dc9c854c6f45e14c1d461940b623a059cdcd14c90538"
+      "address": "0x984A87abFcF4A7B04AAd7f9CD1c4011526e33D7e",
+      "transactionHash": "0x6eb53448e60c5ad4f46a06f29aca26993f0bee5e2beb871d292127b973f66405"
     },
     "1601608424760": {
       "events": {
@@ -772,7 +772,7 @@
     }
   },
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-16T01:53:09.947Z",
+  "updatedAt": "2020-12-17T01:04:30.802Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
