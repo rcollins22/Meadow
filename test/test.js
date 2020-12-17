@@ -25,5 +25,18 @@ contract('Meadow',([deployer,author])=>{
     })
   })
 
+  describe("Photo Posting Correctly?", async () => {
+    let r, idCount;
+    const hash = "testingtesting"
+    before(async () => {
+      r = await meadow.post(hash,"Description", {from: author})
+      idCount = await meadow.idCount()
+    });
+    it('creates post', async ()=> {
+
+      assert.equal(idCount,1)
+      console.log(r.logs) 
+    })
+  });
   
 })
