@@ -11,7 +11,7 @@ contract('Meadow',([deployer,author])=>{
     meadow = await Meadow.deployed()
   })
 
-  describe('Is the contract on the Blockchain?', async () => {
+  describe('Is the contract named on the blockchain?', async () => {
     it('successfully deployed', async ()=> {
       const address = await meadow.address
       assert.notEqual(address, 0x0)
@@ -35,7 +35,7 @@ contract('Meadow',([deployer,author])=>{
     it('creates post', async ()=> {
 
       assert.equal(idCount,1)
-      console.log(r.logs) 
+      console.log(r.logs[0].args) 
     })
   });
   
