@@ -50,6 +50,38 @@ class App extends Component {
       window.alert('Meadow not Deployed')
     }
   }
+
+  handleUpload = event => {
+    event.preventDefault()
+    const photo = event.target.files[0]
+    const reader = new window.FileReader()
+    reader.readAsArrayBuffer(photo)
+
+    reader.onloadend = () => {
+      this.setState({buffer: Buffer(reader.result)})
+      console.log('buffer',this.state.buffer)
+    }
+  }
+
+  handlePost = description => {
+    console.log('sending file to IPFS...')
+
+    ipfs.add(this.state.buffer, (error,result)=>{
+      console.log('IPFS result', result)
+      if(error) {
+        console.error(error)
+        return
+      }
+      // this.setState({loading: true})
+      // this.state.meadow.methods
+      //   .handlePost(result[0].hash, description)
+      //   .send({ from: this.state.account })
+      //   .on("transactionHash", (hash) => {
+      //     thids.setState({loading: false})
+      //   });
+    })
+  }
+
   constructor(props) {
     super(props)
     this.state = {
@@ -70,8 +102,8 @@ class App extends Component {
         ) : (
           <Main
             images={this.state.images}
-            captureFile={this.captureFile}
-            uploadImage={this.uploadImage}
+            captureFile={this.handleUpload}
+            uploadImage={this.handlePost}
             tipImageOwner={this.tipImageOwner}
           />
         )}
