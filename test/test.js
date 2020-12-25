@@ -31,11 +31,12 @@ contract('Meadow',([deployer,author])=>{
     before(async () => {
       r = await meadow.post(hash,"Description", {from: author})
       idCount = await meadow.idCount()
+      console.log("ID COUNT :",idCount)
     });
     it('creates post', async ()=> {
 
-      assert.equal(idCount,1)
-      console.log(r.logs[0].args) 
+      assert.equal(idCount,24)
+    
     })
   });
   

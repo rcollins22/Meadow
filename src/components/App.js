@@ -37,14 +37,14 @@ class App extends Component {
     const web3 = window.web3
     const account = await web3.eth.getAccounts()
     this.setState({account: account[0]})
-    
+    await console.log(web3)
     const networkId = await web3.eth.net.getId()
     const networkData = Meadow.networks[networkId]
     if(networkData){
       const meadow = new web3.eth.Contract(Meadow.abi, networkData.address);
-      console.log(meadow)
+      console.log("METHOD OBJECT",meadow.methods)
       this.setState({meadow})
-      // const iCount = await meadow.methods.post().call()
+      // const iCount = meadow.methods.idCount().call()
       this.setState({loading:false})
     } else {
       window.alert('Meadow not Deployed')
@@ -72,13 +72,14 @@ class App extends Component {
         console.error(error)
         return
       }
-      // this.setState({loading: true})
-      // this.state.meadow.methods
-      //   .handlePost(result[0].hash, description)
-      //   .send({ from: this.state.account })
-      //   .on("transactionHash", (hash) => {
-      //     thids.setState({loading: false})
-      //   });
+      this.setState({loading: true})
+      console.log(this.state.meadow.methods);
+      this.state.meadow.methods
+        .post(result[0].hash, description)
+        .send({ from: this.state.account })
+        .on("transactionHash", (hash) => {
+          this.setState({loading: false})
+        });
     })
   }
 

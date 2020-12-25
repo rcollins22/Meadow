@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 contract Meadow {
   string public name = "Meadow";
   
-  uint public idCount = 0 ;
+  uint public idCount = 23 ;
   mapping(uint => Photo) public photos;
 
   struct Photo {
